@@ -48,7 +48,7 @@ const {
   const callHandler = require('./lib/callhandler');
   // ------------------------------------------
 
-  const ownerNumber = ['254732297194']
+  const ownerNumber = ['254745931715']
 
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -72,7 +72,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("POPKID;;;", '');
+const sessdata = config.SESSION_ID.replace("ELIAKIM;;;", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -126,21 +126,21 @@ const port = process.env.PORT || 9090;
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ 🪆𝗥𝗘𝗣𝗢
-┃https://github.com/Popkiddevs/POPKID-XTECH
+┃https://github.com/kipelia/ELIAKIM MD
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
-┃https://popkidpairfine.onrender.com/pair
+┃https://eliakimpair.onrender.com
 ╰══════════════⊷
 ╭══════════════⊷
-┃ ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴏᴜʀ ʀᴇᴘᴏ
-┃ ғᴏʀ ᴄᴏᴜʀᴀɢ𝗘 ᴘʟᴇᴀsᴇ
+┃ powered by Eliakim tech
+┃ Eliakim md bot
 ╰══════════════⊷
 ╭══════════════⊷
-┃ 𝐏𝐎𝐏𝐊𝐈𝐃
-┃+254732297194
+┃ 𝙀𝙇𝙄𝘼𝙆𝙄𝙈
+┃+254745931715
 ╰══════════════⊷`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/e6rhto.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/o1zb0x.jpeg` }, caption: up })
 
     // --- START: Auto-bio feature ---
     const quotes = [
@@ -158,7 +158,7 @@ const port = process.env.PORT || 9090;
       "🤧Life is 10% what happens to us and 90% how we react to it.❤️"
     ];
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    const bioText = `🧋ᴘᴏᴘᴋɪᴅ ᴍᴅ ɪs ᴀᴄᴛɪᴠᴇ🧋 | ${randomQuote}`;
+    const bioText = `🧋powered by Eliakim tech🧋 | ${randomQuote}`;
 
     try {
       await conn.updateProfileStatus(bioText);
@@ -254,7 +254,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254732297194', '254732297194', '254732297194');
+    const jawad = ('254745931715', '254745931715', '254745931715');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -301,7 +301,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
 
-if (senderNumber.includes("254732297194") && !isReact) {
+if (senderNumber.includes("254745931715") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
@@ -823,7 +823,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
 
   app.get("/", (req, res) => {
-  res.send("POPKID MD STARTED ✅");
+  res.send("ELIAKIM MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
