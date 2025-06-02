@@ -1,6 +1,6 @@
-name: popkid_xtech
+name: eliakim_tech
 services:
-  - name: popkid_xtech-service
+  - name: eliakim_tech-service
     type: web
     ports:
       - 5000
