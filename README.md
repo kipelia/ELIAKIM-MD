@@ -59,7 +59,7 @@ Start by forking this repository to your own GitHub account. Click the button be
    
 🏆 Credits & Contributors
 > Owner 
-- [𝖊𝖑𝖎𝖆𝖐𝖎𝖒](https://github.com/eliakip)
+- [𝖊𝖑𝖎𝖆𝖐𝖎𝖒](https://github.com/kipelia)
 
 > Dev
 - [Eliakim]()
