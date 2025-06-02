@@ -13,7 +13,7 @@
 
 ---
 
-<a><img src='https://files.catbox.moe/4i1zqg.jpg'/></a>
+<a><img src='https://files.catbox.moe/o1zb0x.jpeg'/></a>
 
 <div align="center">
   
@@ -32,7 +32,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 
 <p align="center">
-  <a href="https://eliakimparing.onrender.com">
+  <a href="https://eliakimpair.onrender.com">
     <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_GET_ELIAKIM_SESSION 1-000000?style=for-the-badge&logo=eliakim&logoColor=white&color=skyblue" width="260" height="50"/>
   </a>
 
