@@ -37,7 +37,6 @@ Start by forking this repository to your own GitHub account. Click the button be
   </a>
 
   
-
 <p align="center">
   <a href="https://pairingco-632261b61f75.herokuapp.com/">
     <img title="GET SESSION OPT 2" src="https://img.shields.io/badge/🔑_GET_ELIAKIM_SESSION 2-000000?style=for-the-badge&logo=eliakim&logoColor=white&color=skyblue" width="260" height="50"/>
